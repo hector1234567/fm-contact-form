@@ -97,6 +97,12 @@ textarea {
   border-radius: 0.8rem;
 }
 
+textarea {
+  height: 10.5rem;
+  resize: none;
+  scrollbar-color: var(--Green-600) var(--Green-200);
+}
+
 input:hover,
 textarea:hover {
   border: 0.13rem solid var(--Green-600);
@@ -156,6 +162,7 @@ input[type="radio"] {
   grid-template-columns: min-content auto;
   column-gap: 1.6rem;
   row-gap: 0.8rem;
+  margin: 1.6rem 0;
 }
 
 .form-group__check label {
