@@ -10,6 +10,9 @@ function submitForm(ev) {
 
   if (onChangeConsent()) {
     popup.style.display = "block";
+    setTimeout(function () {
+      popup.style.display = "none";
+    }, 5000);
   }
 }
 
